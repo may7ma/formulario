@@ -112,7 +112,7 @@
                 if(p== ''){ 
                     errores.push("El número de teléfono está vacío");
                 }else{
-                    let regexTelefono = /^[0-9]{9}$/; // solo números, exactamente 9 dígitos
+                    let regexTelefono = /^[0-9]{9}$/; 
                     if(!regexTelefono.test(telefono)){
                       errores.push("El número de teléfono debe tener exactamente 9 dígitos y solo contener números");
                     }
@@ -191,13 +191,13 @@
                   <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Características</a>
+                  <a class="nav-link" href="#">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                    <a class="nav-link" href="#">nosotros</a> 
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gracias.html">Gracias</a> <!-- ✅ Nuevo ítem agregado -->
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">encuentranos</a> 
                 </li>
               </ul>
           </div>
